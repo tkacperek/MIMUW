@@ -1,0 +1,210 @@
+- model: wybory.kandydat
+  pk: 1
+  fields: {nazwisko: Ciebiera, imie: Krzysztof}
+- model: wybory.kandydat
+  pk: 2
+  fields: {nazwisko: Tusk, imie: Donald Franciszek}
+- model: wybory.wojewodztwo
+  pk: 1
+  fields: {idw: 0, nazwa: "dolno\u015Bl\u0105skie, woj."}
+- model: wybory.wojewodztwo
+  pk: 2
+  fields: {idw: 1, nazwa: 'kujawsko-pomorskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 3
+  fields: {idw: 2, nazwa: 'lubelskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 4
+  fields: {idw: 3, nazwa: 'lubuskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 5
+  fields: {idw: 4, nazwa: "\u0142\xF3dzkie, woj."}
+- model: wybory.wojewodztwo
+  pk: 6
+  fields: {idw: 5, nazwa: "ma\u0142opolskie, woj."}
+- model: wybory.wojewodztwo
+  pk: 7
+  fields: {idw: 6, nazwa: 'mazowieckie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 8
+  fields: {idw: 7, nazwa: 'opolskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 9
+  fields: {idw: 8, nazwa: 'podkarpackie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 10
+  fields: {idw: 9, nazwa: 'podlaskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 11
+  fields: {idw: 10, nazwa: 'pomorskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 12
+  fields: {idw: 11, nazwa: "\u015Bl\u0105skie, woj."}
+- model: wybory.wojewodztwo
+  pk: 13
+  fields: {idw: 12, nazwa: "\u015Bwi\u0119tokrzyskie, woj."}
+- model: wybory.wojewodztwo
+  pk: 14
+  fields: {idw: 13, nazwa: "warmi\u0144sko-mazurskie, woj."}
+- model: wybory.wojewodztwo
+  pk: 15
+  fields: {idw: 14, nazwa: 'wielkopolskie, woj.'}
+- model: wybory.wojewodztwo
+  pk: 55
+  fields: {idw: 15, nazwa: 'zachodniopomorskie, woj.'}
+- model: wybory.gmina
+  pk: 7
+  fields: {nazwa: "Warta Boles\u0142awiecka, gm.", wojewodztwo: 1, rodzaj: w, l_mieszkancow: 7700,
+    l_uprawnionych: 5997, l_wydanych_kart: 2359, l_oddanych_glosow: 2359, l_waznych_glosow: 2351,
+    l_glosow_1: 1281, l_glosow_2: 1070, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 8
+  fields: {nazwa: "Boles\u0142awiec, m.", wojewodztwo: 1, rodzaj: m, l_mieszkancow: 41391,
+    l_uprawnionych: 34066, l_wydanych_kart: 16799, l_oddanych_glosow: 16790, l_waznych_glosow: 16622,
+    l_glosow_1: 7080, l_glosow_2: 9542, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 9
+  fields: {nazwa: "D\u0105browa Che\u0142mi\u0144ska, gm.", wojewodztwo: 2, rodzaj: w,
+    l_mieszkancow: 7067, l_uprawnionych: 5261, l_wydanych_kart: 2062, l_oddanych_glosow: 2062,
+    l_waznych_glosow: 2036, l_glosow_1: 1154, l_glosow_2: 882, mod_date: !!timestamp '2016-05-19
+      13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 10
+  fields: {nazwa: "Zamo\u015B\u0107, m.", wojewodztwo: 3, rodzaj: m, l_mieszkancow: 67486,
+    l_uprawnionych: 53689, l_wydanych_kart: 27417, l_oddanych_glosow: 27409, l_waznych_glosow: 27131,
+    l_glosow_1: 17424, l_glosow_2: 9707, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 11
+  fields: {nazwa: 'Skwierzyna, gm.', wojewodztwo: 4, rodzaj: w, l_mieszkancow: 12748,
+    l_uprawnionych: 10087, l_wydanych_kart: 4293, l_oddanych_glosow: 4292, l_waznych_glosow: 4236,
+    l_glosow_1: 1746, l_glosow_2: 2490, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 12
+  fields: {nazwa: "Tomasz\xF3w Mazowiecki, m.", wojewodztwo: 5, rodzaj: m, l_mieszkancow: 67800,
+    l_uprawnionych: 54588, l_wydanych_kart: 27932, l_oddanych_glosow: 27929, l_waznych_glosow: 27588,
+    l_glosow_1: 15050, l_glosow_2: 12538, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 13
+  fields: {nazwa: 'Mogilany, gm.', wojewodztwo: 6, rodzaj: w, l_mieszkancow: 10654,
+    l_uprawnionych: 8086, l_wydanych_kart: 4749, l_oddanych_glosow: 4748, l_waznych_glosow: 4715,
+    l_glosow_1: 2811, l_glosow_2: 1904, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 14
+  fields: {nazwa: 'Warszawa, m.', wojewodztwo: 7, rodzaj: m, l_mieszkancow: 1575958,
+    l_uprawnionych: 1359912, l_wydanych_kart: 900924, l_oddanych_glosow: 900252, l_waznych_glosow: 890522,
+    l_glosow_1: 559203, l_glosow_2: 331319, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 15
+  fields: {nazwa: 'Chotcza, gm.', wojewodztwo: 7, rodzaj: w, l_mieszkancow: 2814,
+    l_uprawnionych: 2244, l_wydanych_kart: 714, l_oddanych_glosow: 714, l_waznych_glosow: 710,
+    l_glosow_1: 571, l_glosow_2: 139, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 16
+  fields: {nazwa: 'Opole, m.', wojewodztwo: 8, rodzaj: m, l_mieszkancow: 119572, l_uprawnionych: 100565,
+    l_wydanych_kart: 54590, l_oddanych_glosow: 54578, l_waznych_glosow: 53991, l_glosow_1: 17883,
+    l_glosow_2: 36108, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 20
+  fields: {nazwa: "D\u0119bica, m.", wojewodztwo: 9, rodzaj: m, l_mieszkancow: 48021,
+    l_uprawnionych: 37935, l_wydanych_kart: 21792, l_oddanych_glosow: 21789, l_waznych_glosow: 21589,
+    l_glosow_1: 14048, l_glosow_2: 7541, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 21
+  fields: {nazwa: "Rzesz\xF3w, m.", wojewodztwo: 9, rodzaj: m, l_mieszkancow: 150781,
+    l_uprawnionych: 122911, l_wydanych_kart: 74356, l_oddanych_glosow: 74327, l_waznych_glosow: 73580,
+    l_glosow_1: 41798, l_glosow_2: 31782, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 22
+  fields: {nazwa: 'Szepietowo, gm.', wojewodztwo: 10, rodzaj: w, l_mieszkancow: 7752,
+    l_uprawnionych: 5943, l_wydanych_kart: 3272, l_oddanych_glosow: 3272, l_waznych_glosow: 3250,
+    l_glosow_1: 2767, l_glosow_2: 483, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 23
+  fields: {nazwa: 'Ciechanowiec, gm.', wojewodztwo: 10, rodzaj: w, l_mieszkancow: 9935,
+    l_uprawnionych: 7702, l_wydanych_kart: 3498, l_oddanych_glosow: 3498, l_waznych_glosow: 3470,
+    l_glosow_1: 2770, l_glosow_2: 700, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 24
+  fields: {nazwa: "Bia\u0142ystok, m.", wojewodztwo: 10, rodzaj: m, l_mieszkancow: 277687,
+    l_uprawnionych: 224414, l_wydanych_kart: 123495, l_oddanych_glosow: 123446, l_waznych_glosow: 122295,
+    l_glosow_1: 61256, l_glosow_2: 61039, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 25
+  fields: {nazwa: 'Reda, m.', wojewodztwo: 11, rodzaj: m, l_mieszkancow: 17694, l_uprawnionych: 13437,
+    l_wydanych_kart: 8292, l_oddanych_glosow: 8289, l_waznych_glosow: 8216, l_glosow_1: 3090,
+    l_glosow_2: 5126, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 26
+  fields: {nazwa: 'Bobowo, gm.', wojewodztwo: 11, rodzaj: w, l_mieszkancow: 2894,
+    l_uprawnionych: 2097, l_wydanych_kart: 1065, l_oddanych_glosow: 1065, l_waznych_glosow: 1054,
+    l_glosow_1: 744, l_glosow_2: 310, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 27
+  fields: {nazwa: 'Istebna, gm.', wojewodztwo: 12, rodzaj: w, l_mieszkancow: 11496,
+    l_uprawnionych: 8342, l_wydanych_kart: 5056, l_oddanych_glosow: 5056, l_waznych_glosow: 5016,
+    l_glosow_1: 2926, l_glosow_2: 2090, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 28
+  fields: {nazwa: 'Zebrzydowice, gm.', wojewodztwo: 12, rodzaj: w, l_mieszkancow: 12283,
+    l_uprawnionych: 9543, l_wydanych_kart: 5087, l_oddanych_glosow: 5085, l_waznych_glosow: 5024,
+    l_glosow_1: 2886, l_glosow_2: 2138, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 29
+  fields: {nazwa: "Jastrz\u0119bie-Zdr\xF3j, m.", wojewodztwo: 12, rodzaj: m, l_mieszkancow: 95598,
+    l_uprawnionych: 75896, l_wydanych_kart: 40498, l_oddanych_glosow: 40494, l_waznych_glosow: 40126,
+    l_glosow_1: 25255, l_glosow_2: 14871, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 30
+  fields: {nazwa: "Zagna\u0144sk, gm.", wojewodztwo: 13, rodzaj: w, l_mieszkancow: 12613,
+    l_uprawnionych: 9871, l_wydanych_kart: 5142, l_oddanych_glosow: 5141, l_waznych_glosow: 5109,
+    l_glosow_1: 3308, l_glosow_2: 1801, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 31
+  fields: {nazwa: "Ch\u0119ciny, gm.", wojewodztwo: 13, rodzaj: w, l_mieszkancow: 14875,
+    l_uprawnionych: 12100, l_wydanych_kart: 5545, l_oddanych_glosow: 5545, l_waznych_glosow: 5512,
+    l_glosow_1: 3632, l_glosow_2: 1880, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 32
+  fields: {nazwa: 'Lubawa, gm.', wojewodztwo: 14, rodzaj: w, l_mieszkancow: 10637,
+    l_uprawnionych: 7616, l_wydanych_kart: 3651, l_oddanych_glosow: 3649, l_waznych_glosow: 3596,
+    l_glosow_1: 2543, l_glosow_2: 1053, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 33
+  fields: {nazwa: "Odolan\xF3w, gm.", wojewodztwo: 15, rodzaj: w, l_mieszkancow: 14031,
+    l_uprawnionych: 10357, l_wydanych_kart: 5738, l_oddanych_glosow: 5736, l_waznych_glosow: 5686,
+    l_glosow_1: 3859, l_glosow_2: 1827, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 34
+  fields: {nazwa: "Ostr\xF3w Wielkopolski, gm.", wojewodztwo: 15, rodzaj: w, l_mieszkancow: 17954,
+    l_uprawnionych: 13563, l_wydanych_kart: 6539, l_oddanych_glosow: 6535, l_waznych_glosow: 6470,
+    l_glosow_1: 4179, l_glosow_2: 2291, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 35
+  fields: {nazwa: "Dar\u0142owo, gm.", wojewodztwo: 55, rodzaj: w, l_mieszkancow: 7759,
+    l_uprawnionych: 5792, l_wydanych_kart: 2328, l_oddanych_glosow: 2328, l_waznych_glosow: 2301,
+    l_glosow_1: 1311, l_glosow_2: 990, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 36
+  fields: {nazwa: "Z\u0105bki, m.", wojewodztwo: 7, rodzaj: m, l_mieszkancow: 21158,
+    l_uprawnionych: 16993, l_wydanych_kart: 10657, l_oddanych_glosow: 10653, l_waznych_glosow: 10600,
+    l_glosow_1: 5819, l_glosow_2: 4781, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 37
+  fields: {nazwa: "Wo\u0142omin, gm.", wojewodztwo: 7, rodzaj: w, l_mieszkancow: 48521,
+    l_uprawnionych: 38429, l_wydanych_kart: 23759, l_oddanych_glosow: 23754, l_waznych_glosow: 23572,
+    l_glosow_1: 14337, l_glosow_2: 9235, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 38
+  fields: {nazwa: 'Radom, m.', wojewodztwo: 7, rodzaj: m, l_mieszkancow: 226422, l_uprawnionych: 180848,
+    l_wydanych_kart: 101698, l_oddanych_glosow: 101667, l_waznych_glosow: 100728,
+    l_glosow_1: 60136, l_glosow_2: 40592, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 39
+  fields: {nazwa: Statki, wojewodztwo: 11, rodzaj: s, l_mieszkancow: 114, l_uprawnionych: 114,
+    l_wydanych_kart: 114, l_oddanych_glosow: 114, l_waznych_glosow: 109, l_glosow_1: 32,
+    l_glosow_2: 77, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}
+- model: wybory.gmina
+  pk: 40
+  fields: {nazwa: Zagranica, wojewodztwo: 7, rodzaj: z, l_mieszkancow: 80071, l_uprawnionych: 80071,
+    l_wydanych_kart: 48196, l_oddanych_glosow: 48179, l_waznych_glosow: 47796, l_glosow_1: 21418,
+    l_glosow_2: 26378, mod_date: !!timestamp '2016-05-19 13:19:41.777037+00:00'}

@@ -1,0 +1,14 @@
+
+*.sqlite3
+
+.idea/workspace.xml
+
+*.pyc
+
+.idea/vcs.xml
+
+.idea/workspace.xml
+
+zadanie1/__pycache__/settings.cpython-35.pyc
+
+zadanie1/__pycache__/urls.cpython-35.pyc
